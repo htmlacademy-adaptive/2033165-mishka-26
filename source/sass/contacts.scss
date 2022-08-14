@@ -1,0 +1,18 @@
+@use "variables.scss";
+
+.contacts__item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  color: variables.$brown;
+}
+
+.contacts__value-link {
+  text-decoration: none;
+  color: variables.$brown;
+}
+
+.contacts {
+  margin-top: 38px;
+  margin-bottom: 39px;
+}

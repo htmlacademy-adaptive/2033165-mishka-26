@@ -1,0 +1,10 @@
+@use "variables.scss";
+
+.main-container__header {
+  background-image: url("../img/main-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.main-container__header--no-image {
+  background-color: variables.$grey;
+}

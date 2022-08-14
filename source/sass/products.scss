@@ -1,0 +1,30 @@
+@use "variables.scss";
+
+.products__title {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.products__link {
+  color: variables.$black;
+  text-decoration: none;
+}
+
+.products__description {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+  color: variables.$brown;
+}
+
+.products__price {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: variables.$black;
+}
+
+.products__item {
+  margin-top: 30px;
+}
