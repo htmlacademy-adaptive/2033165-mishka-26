@@ -1,68 +1,24 @@
-@use "social.scss";
-@use "site-list.scss";
-@use "products.scss";
-@use "production.scss";
-@use "popular.scss";
-@use "main-title.scss";
-@use "main-nav.scss";
-@use "main-header.scss";
-@use "main-form.scss";
-@use "main-footer.scss";
-@use "main-container.scss";
-@use "logo.scss";
-@use "just-text.scss";
-@use "input.scss";
-@use "form-group.scss";
-@use "feedback.scss";
-@use "copyright.scss";
-@use "contacts.scss";
-@use "catalog-types-list.scss";
-@use "button.scss";
-@use "advantages.scss";
-@use "variables.scss";
-
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/opensans.woff2") format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/opensansbold.woff2") format("woff2");
-  font-display: swap;
-}
-
-.page-body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  color: variables.$black;
-  margin: 0;
-  padding: 0;
-}
-
-.just-text {
-  font-size: 15px;
-  font-weight: 400;
-  color: variables.$brown;
-}
-
-.button {
-  font-weight: 700;
-  text-decoration: none;
-  color: variables.$brown;
-  text-transform: uppercase;
-}
-
-.subtitle {
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 30px;
-  color: variables.$black;
-}
+@import "variables.scss";
+@import "fonts.scss";
+@import "global.scss";
+@import "blocks/social.scss";
+@import "blocks/site-list.scss";
+@import "blocks/products.scss";
+@import "blocks/production.scss";
+@import "blocks/popular.scss";
+@import "blocks/main-title.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/main-header.scss";
+@import "blocks/main-form.scss";
+@import "blocks/main-footer.scss";
+@import "blocks/main-container.scss";
+@import "blocks/logo.scss";
+@import "blocks/just-text.scss";
+@import "blocks/input.scss";
+@import "blocks/form-group.scss";
+@import "blocks/feedback.scss";
+@import "blocks/copyright.scss";
+@import "blocks/contacts.scss";
+@import "blocks/catalog-types-list.scss";
+@import "blocks/button.scss";
+@import "blocks/advantages.scss";

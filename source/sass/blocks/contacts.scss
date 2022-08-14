@@ -1,15 +1,13 @@
-@use "variables.scss";
-
 .contacts__item {
   font-size: 14px;
   font-weight: 400;
   line-height: 30px;
-  color: variables.$brown;
+  color: $brown;
 }
 
 .contacts__value-link {
   text-decoration: none;
-  color: variables.$brown;
+  color: $brown;
 }
 
 .contacts {

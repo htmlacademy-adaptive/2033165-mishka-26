@@ -1,13 +1,11 @@
-@use "variables.scss";
-
 .catalog-types-list__item:first-child {
-  background-color: variables.$green;
+  background-color: $green;
   background-image: url("../img/item-1.png");
   background-repeat: no-repeat;
 }
 
 .catalog-types-list__item:last-child {
-  background-color: variables.$green-darker;
+  background-color: $green-darker;
   background-image: url("../img/item-2.png");
   background-repeat: no-repeat;
 }
@@ -16,7 +14,7 @@
   font-size: 19px;
   font-weight: 700;
   line-height: 24px;
-  color: variables.$white;
+  color: $white;
   text-decoration: none;
 }
 

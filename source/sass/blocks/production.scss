@@ -1,17 +1,15 @@
-@use "variables.scss";
-
 .production__title {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: variables.$black;
+  color: $black;
 }
 
 .production__text {
   font-weight: 400;
   font-size: 13px;
   line-height: 24px;
-  color: variables.$brown;
+  color: $brown;
 }
 
 .production {
