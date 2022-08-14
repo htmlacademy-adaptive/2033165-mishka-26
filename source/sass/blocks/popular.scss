@@ -1,0 +1,31 @@
+.popular__under-title {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  color: $green;
+}
+
+.popular__stats-item {
+  line-height: 20px;
+}
+
+.popular__price {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  color: $brown;
+}
+
+.popular__text {
+  line-height: 24px;
+}
+
+.popular__submit {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.popular {
+  margin-top: 31px;
+  padding: 0 30px 36px;
+}

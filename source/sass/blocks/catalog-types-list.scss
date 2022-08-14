@@ -1,0 +1,23 @@
+.catalog-types-list__item:first-child {
+  background-color: $green;
+  background-image: url("../img/item-1.png");
+  background-repeat: no-repeat;
+}
+
+.catalog-types-list__item:last-child {
+  background-color: $green-darker;
+  background-image: url("../img/item-2.png");
+  background-repeat: no-repeat;
+}
+
+.catalog-types-list__title {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  color: $white;
+  text-decoration: none;
+}
+
+.catalog-types-list__item {
+  padding: 24px 36px 31px 30px;
+}
